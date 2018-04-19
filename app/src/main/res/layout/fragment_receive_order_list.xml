@@ -2,17 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context="com.example.sdu.lgssp.NewsFragment">
-=======
-    tools:context=".fragment.NewsFragment">
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
+    tools:context="com.example.sdu.lgssp.fragment.MakeOrderListFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
-
     <ListView
-        android:id="@+id/news_list"
+        android:id="@+id/receiveOrder_listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
