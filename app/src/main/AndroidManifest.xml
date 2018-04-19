@@ -8,27 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".MainActivity">
-=======
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.CreateOrderActivity" />
         <activity android:name=".activity.MenuInfoActivity" />
         <activity android:name=".activity.LoginActivity">
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.ForgetPWActivity" />
         <activity android:name=".activity.MyInfoActivity" />
         <activity android:name=".activity.MyOrderActivity"></activity>
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
     </application>
 
 </manifest>

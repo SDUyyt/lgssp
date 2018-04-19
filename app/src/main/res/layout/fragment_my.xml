@@ -29,11 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="-140dp"
         android:text="我的信息"
-<<<<<<< HEAD
-        android:textSize="30sp"
-=======
         android:textSize="23sp"
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
         android:gravity="center"/>
 
     <View
@@ -44,16 +40,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="订单查询"
-        android:textSize="30sp"
-        android:gravity="center"/>
-=======
-        android:text="my order"
+        android:text="我的订单"
         android:textSize="23sp"
         android:gravity="center"
         android:onClick="myOrder"/>
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
 
     <View
         android:layout_width="match_parent"
@@ -63,13 +53,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="售后服务"
-        android:textSize="30sp"
-=======
-        android:text="ru zhu"
+        android:text="商家入驻"
         android:textSize="23sp"
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
         android:gravity="center"/>
     <View
         android:layout_width="match_parent"
@@ -80,11 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="退出账号"
-<<<<<<< HEAD
-        android:textSize="30sp"
-=======
         android:textSize="23sp"
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
         android:gravity="center"/>
 
     <View
