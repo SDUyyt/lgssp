@@ -1,4 +1,4 @@
-package com.example.sdu.lgssp;
+package com.example.sdu.lgssp.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -20,6 +20,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
+
+import com.example.sdu.lgssp.R;
 
 /**
  * Created by Administrator on 2018/4/11.

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sdu.lgssp.BuycarFragment">
+    tools:context=".fragment.BuycarFragment">
 
     <ListView
         android:id="@+id/buycar_list"

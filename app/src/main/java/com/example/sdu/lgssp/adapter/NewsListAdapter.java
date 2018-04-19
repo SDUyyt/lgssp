@@ -1,4 +1,4 @@
-package com.example.sdu.lgssp;
+package com.example.sdu.lgssp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,17 +8,21 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.sdu.lgssp.bean.ChatBean;
+import com.example.sdu.lgssp.bean.OrderBean;
+import com.example.sdu.lgssp.R;
+
 import java.util.ArrayList;
 
 /**
- * 购物车适配器
+ * 消息界面适配器
  */
 
-public class BuyCarListAdapter extends BaseAdapter{
-    private ArrayList<OrderBean> OrderList;
+public class NewsListAdapter extends BaseAdapter{
+    private ArrayList<ChatBean> OrderList;
     private Context context;
 
-    public BuyCarListAdapter(Context context, ArrayList<OrderBean> OrderList){
+    public NewsListAdapter(Context context, ArrayList<ChatBean> OrderList){
         this.context = context;
         this.OrderList = OrderList;
     }
@@ -46,7 +50,7 @@ public class BuyCarListAdapter extends BaseAdapter{
 
         comment_icon.setImageDrawable(context.getResources().getDrawable(R.mipmap.ic_launcher));
         nameTv.setText(OrderList.get(position).name);
-        commentText.setText(OrderList.get(position).description);
+        commentText.setText(OrderList.get(position).news);
         return convertView;
     }
 }
