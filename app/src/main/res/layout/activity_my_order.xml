@@ -13,14 +13,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="getMakeOrderList"
-            android:text="make order list" />
+            android:text="下单列表" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="getReceiveOrderList"
-            android:text="receive order list" />
+            android:text="接单列表" />
     </LinearLayout>
 
     <com.example.sdu.lgssp.widget.CustomViewPager

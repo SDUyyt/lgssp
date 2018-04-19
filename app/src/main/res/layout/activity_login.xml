@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="nickname"/>
+            android:text="用户名"/>
 
         <EditText
             android:layout_width="200dp"
@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="password"/>
+            android:text="密码"/>
 
         <EditText
             android:layout_width="200dp"
@@ -38,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="登录"
         android:onClick="login"/>
 
     <LinearLayout
@@ -49,13 +49,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="forget"
+            android:text="忘记密码"
             android:autoLink="all"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="register"
+            android:text="注册"
             android:layout_marginLeft="20dp"
             android:autoLink="all"
             android:onClick="registeAccout"/>
