@@ -3,11 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/lgssp.iml" filepath="$PROJECT_DIR$/lgssp.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/lgssp-master.iml" filepath="$PROJECT_DIR$/lgssp-master.iml" />
->>>>>>> 29badaedee33975d525f35e5bd102b1530da5182
     </modules>
   </component>
 </project>
